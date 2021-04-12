@@ -4,7 +4,7 @@
   color: #2f363e;
   background-color: #fafafa;
   padding: 15px 0;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 #friends-display-link i {
@@ -17,4 +17,28 @@
 
 #friends-display-link i:last-child {
   margin-left: 5px;
+}
+
+.friends-screen {
+  padding: 0px var(--horizontal-space);
+}
+
+.friends-screen__channel {
+  margin-top: 10px;
+  border-top: 2px solid #f1f1f1;
+  padding: 15px 0;
+}
+
+.friends-screen__channel-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.friends-screen__channel-header span,
+.friends-screen__channel-header i {
+  color: var(--gray);
+}
+
+.friends-screen__channel-header span {
+  font-size: 15px;
 }
