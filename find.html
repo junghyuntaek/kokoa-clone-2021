@@ -27,36 +27,90 @@
     <h1 class="screen-header__title">Find</h1>
     <div class="screen-header__icons">
       <span><i class="fas fa-search fa-lg"></i></span>
-      <span><div class="dot"></div><i class="fas fa-cog fa-lg"></i></span>
+      <span>
+        <a href="settings.html">
+          <div class="point"></div>
+          <i class="fas fa-cog fa-lg"></i>
+        </a>
+      </span>
     </div>
   </header>
 
-  <main class="find-screen">
-    <div class="method">
-      <div class="method__column">
-
+  <main class="main-screen">
+    <div class="icon-row">
+      <div class="icon-row__icon">
+        <i class="fas fa-qrcode fa-2x"></i>
         <span>QR Code</span>
       </div>
-      <div class="method__column">
-
+      <div class="icon-row__icon">
+        <i class="far fa-address-book fa-2x"></i>
         <span>Add by Contacts</span>
       </div>
-      <div class="method__column">
-
+      <div class="icon-row__icon">
+        <i class="fas fa-fingerprint fa-2x"></i>
         <span>Add by ID</span>
       </div>
-      <div class="method__column">
-
+      <div class="icon-row__icon">
+        <i class="far fa-envelope fa-2x"></i>
         <span>Invite</span>
       </div>
     </div>
 
-    <div class="fine__column">
-      <span>You have no recommended friends.</span>
+    <div class="recommended-friends">
+      <h6 class="recommended-friends__title">Recommended Friends</h6>
+      <span>You have no recommended friends</span>
     </div>
 
-    <div class="fine__column">
+    <div class="open-chat">
+      <div class="open-chat__header">
+        <h4>Open Chat</h4>
+        <span>Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i></span>
+      </div>
 
+      <section>
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">#BTS</h5>
+            <h6 class="open-post__hashtags">#BTS#ARNT#FRIENDS</h6>
+            <div class="open-post__members">
+              <img src="https://avatars.githubusercontent.com/u/3612017">
+              <span class="open-post__member-count">802 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://avatars.githubusercontent.com/u/3612017">
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>326</span>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="open-post">
+          <div class="open-post__column">
+            <h5 class="open-post__title">Bts Gang~</h5>
+            <h6 class="open-post__hashtags">#englishonly #ipurpleyou #jimin #taeta...</h6>
+            <div class="open-post__members">
+              <img src="https://avatars.githubusercontent.com/u/3612017">
+              <span class="open-post__member-count">299 members</span>
+              <div class="divider"></div>
+              <span class="open-post__member-status">Active</span>
+            </div>
+          </div>
+  
+          <div class="open-post__column">
+            <div class="open-post__photo">
+              <img src="https://avatars.githubusercontent.com/u/3612017">
+              <div class="open-post__heart-count">
+                <i class="fas fa-heart fa-xs"></i><span>215</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </main>
 
@@ -79,8 +133,8 @@
         </a>
       </li>
       <li class="nav__btn">
-        <a class="nav__link" href="#">
-          <div class="dot"></div>
+        <a class="nav__link" href="more.html">
+          <div class="point"></div>
           <i class="fas fa-ellipsis-h fa-2x"></i>
         </a>
       </li>

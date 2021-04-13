@@ -9,12 +9,3 @@
   justify-content: center;
   align-items: center;
 }
-
-.dot {
-  background-color: tomato;
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  position: absolute;
-  right: -7px;
-}
