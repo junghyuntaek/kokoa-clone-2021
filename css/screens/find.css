@@ -13,7 +13,7 @@
 .recommended-friends span {
   font-size: 18px;
   font-weight: 500;
-  margin: 100px 0;
+  margin: 95px 0;
   display: block;
   text-align: center;
   color: var(--gray);
@@ -108,4 +108,24 @@
 
 .open-post__heart-count i {
   margin-right: 7px;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.5);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartBeat 1s linear infinite;
 }
