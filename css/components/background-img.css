@@ -1,3 +1,27 @@
+.back1 {
+  background-image: url("https://github.com/junghyuntaek/kokoa-clone-2021/blob/experimental/images/jjang/back1.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: 115%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.back2 {
+  background-image: url("https://github.com/junghyuntaek/kokoa-clone-2021/blob/experimental/images/jjang/back2.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+.back3 {
+  background-image: url("https://github.com/junghyuntaek/kokoa-clone-2021/blob/experimental/images/jjang/back3.png?raw=true");
+  background-repeat: no-repeat;
+  background-size: 105%;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
 .back5 {
   background-image: url("https://github.com/junghyuntaek/kokoa-clone-2021/blob/experimental/images/jjang/back5.jpg?raw=true");
   background-repeat: no-repeat;
