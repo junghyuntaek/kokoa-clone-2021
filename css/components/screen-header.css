@@ -3,6 +3,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 25px 20px 20px;
+  background-color: tomato;
+  box-shadow: 0 5px 28px rgba(0, 0, 0, 0.3);
+  top: 32px;
+  margin-bottom: 20px;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .screen-header__title {

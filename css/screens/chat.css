@@ -1,21 +1,13 @@
-#chat-screen {
+.chat-screen {
   background-color: #abc1d1;
   height: 300vh;
 }
 
-#chat-screen .status-bar,
-#chat-screen .alt-header {
+.chat-screen .status-bar,
+.chat-screen .alt-header {
   position: fixed;
   width: 100%;
   background-color: #abc1d1;
-}
-
-#chat-screen .status-bar {
-  z-index: 2;
-}
-
-#chat-screen .alt-header {
-  z-index: 1;
 }
 
 @keyframes fadeIn {
