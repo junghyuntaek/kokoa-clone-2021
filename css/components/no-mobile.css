@@ -3,7 +3,7 @@
   z-index: 99;
   height: 100vh;
   background-color: var(--yellow);
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,7 +15,7 @@
   margin-right: 10px;
 }
 
-@media screen and (max-width: 645px) {
+@media screen and (max-width: 600px) {
   #no-mobile {
     display: none;
   }

@@ -49,7 +49,7 @@
   }
   to {
     opacity: 0;
-    visibility: hidden;
+    transform: scale(0);
   }
 }
 
@@ -65,5 +65,5 @@
   box-sizing: border-box;
   font-size: 132px;
   animation: hideSplashScreen 0.5s ease-in-out forwards;
-  animation-delay: 1s;
+  animation-delay: 1.5s;
 }
