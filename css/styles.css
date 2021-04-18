@@ -25,7 +25,11 @@ body {
   font-family: "Open Sans", sans-serif;
   height: 100%;
   padding-top: 30px;
-  background: linear-gradient(to left, #757f9b, #3c4766);
+  background-image: url("https://github.com/junghyuntaek/kokoa-clone-2021/blob/experimental/images/jjang/back2.jpg?raw=true");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 .main-screen {

@@ -6,6 +6,7 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  background-color: #f9f9fa;
 }
 
 .status-bar__column {
