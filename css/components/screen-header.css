@@ -3,6 +3,13 @@
   justify-content: space-between;
   align-items: center;
   padding: 20px 25px 20px 20px;
+  background-color: tomato;
+  box-shadow: 0 5px 28px rgba(0, 0, 0, 0.3);
+  top: 32px;
+  margin-bottom: 20px;
+  position: fixed;
+  box-sizing: border-box;
+  width: 100%;
 }
 
 .screen-header__title {
@@ -18,6 +25,24 @@
 .screen-header__icons span {
   margin-left: 30px;
   position: relative;
+}
+
+@keyframes vibeMusic {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: translateX(-5px) translateY(-5px);
+  }
+  60% {
+    transform: translateX(5px) translateY(-9px);
+  }
+  100% {
+    transform: translateX(-5px) translateY(-12px);
+  }
+}
+.screen-header__icons .fa-music:hover {
+  animation: vibeMusic 1s ease-in-out infinite;
 }
 
 @keyframes rotateCog {

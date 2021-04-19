@@ -11,6 +11,12 @@
   justify-content: space-between;
   align-items: center;
   width: 100px;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon-row__icon:hover {
+  transform: rotateZ(15deg) scale(1.05);
+  color: aquamarine;
 }
 
 .icon-row__icon span {

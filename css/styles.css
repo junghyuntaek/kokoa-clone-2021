@@ -12,6 +12,7 @@
 @import "components/point.css";
 @import "components/icon-row.css";
 @import "components/no-mobile.css";
+@import "components/background-img.css";
 
 /* Screens */
 @import "screens/login.css";
@@ -23,10 +24,23 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  height: 200vh;
+  height: 100%;
+  padding-top: 120px;
+  padding-bottom: 73px;
+}
+
+.body-alt {
   padding-top: 30px;
 }
 
 .main-screen {
   padding: 0px var(--horizontal-space);
+}
+
+.status-bar {
+  z-index: 3;
+}
+
+.alt-header {
+  z-index: 2;
 }

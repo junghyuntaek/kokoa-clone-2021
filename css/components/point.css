@@ -7,3 +7,7 @@
   right: -8px;
   top: -8px;
 }
+
+.screen-header .point {
+  background-color: var(--yellow);
+}

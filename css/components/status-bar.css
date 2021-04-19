@@ -6,6 +6,11 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  background-color: rgb(190, 71, 50);
+}
+
+.status-bar__column span {
+  font-weight: 600;
 }
 
 .status-bar__column {
@@ -24,6 +29,26 @@
   margin-right: 3px;
 }
 
-.status-bar__column .fa-battery-full {
-  margin: 0px 5px;
+@keyframes charge {
+  0% {
+    color: black;
+  }
+  42% {
+    color: rgba(255, 255, 0, 0.75);
+  }
+  58% {
+    color: rgba(255, 255, 0, 0.75);
+  }
+  100% {
+    color: black;
+  }
+}
+
+.status-bar__column .fa-battery-quarter {
+  margin: 0px 6px;
+  animation: charge 3.5s ease-in-out infinite;
+}
+
+.status-bar__column .fa-charging-station {
+  animation: charge 3.5s ease-in-out infinite;
 }
