@@ -27,6 +27,24 @@
   position: relative;
 }
 
+@keyframes vibeMusic {
+  0% {
+    transform: none;
+  }
+  25% {
+    transform: translateX(-5px) translateY(-5px);
+  }
+  60% {
+    transform: translateX(5px) translateY(-9px);
+  }
+  100% {
+    transform: translateX(-5px) translateY(-12px);
+  }
+}
+.screen-header__icons .fa-music:hover {
+  animation: vibeMusic 1s ease-in-out infinite;
+}
+
 @keyframes rotateCog {
   from {
     transform: none;
