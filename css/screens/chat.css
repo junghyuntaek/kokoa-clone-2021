@@ -1,13 +1,16 @@
 .chat-screen {
-  background-color: #abc1d1;
   height: 300vh;
 }
 
-.chat-screen .status-bar,
+.chat-screen .status-bar {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(190, 71, 50);
+}
 .chat-screen .alt-header {
   position: fixed;
   width: 100%;
-  background-color: #abc1d1;
+  background-color: tomato;
 }
 
 @keyframes fadeIn {
@@ -66,8 +69,11 @@
   animation: fadeIn-left 0.4s linear forwards;
   animation-delay: 1s;
 }
+.message-row2 {
+  animation-delay: 3.5s;
+}
 
-.message-row img {
+.message-row__img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -99,12 +105,25 @@
   opacity: 0.6;
   font-size: 12px;
 }
+.message__check {
+  color: tomato;
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 5px;
+}
+.message-row--own .message__check {
+  margin-left: 0;
+  margin-right: 5px;
+}
 
 .message-row--own {
   justify-content: flex-end;
   opacity: 0;
   animation: fadeIn-right 0.4s linear forwards;
   animation-delay: 2s;
+}
+.message-row--own2 {
+  animation-delay: 2.5s;
 }
 
 .message-row--own .message__bubble {
@@ -117,6 +136,12 @@
 
 .message-row--own .message__info {
   flex-direction: row-reverse;
+}
+
+.send-img {
+  width: 250px;
+  height: 190px;
+  margin-left: 7px;
 }
 
 .reply {
@@ -204,4 +229,53 @@
 
 .reply:focus-within {
   transform: translateY(80px);
+}
+
+.chat-delay1 {
+  animation-delay: 1s;
+}
+.chat-delay1-5 {
+  animation-delay: 1.5s;
+}
+.chat-delay2 {
+  animation-delay: 2s;
+}
+.chat-delay2-5 {
+  animation-delay: 2.5s;
+}
+.chat-delay3 {
+  animation-delay: 3s;
+}
+.chat-delay3-5 {
+  animation-delay: 3.5s;
+}
+.chat-delay4 {
+  animation-delay: 4s;
+}
+.chat-delay4-5 {
+  animation-delay: 4.5s;
+}
+.chat-delay5 {
+  animation-delay: 5s;
+}
+.chat-delay5-5 {
+  animation-delay: 5.5s;
+}
+.chat-delay6 {
+  animation-delay: 6s;
+}
+.chat-delay6-5 {
+  animation-delay: 6.5s;
+}
+.chat-delay7 {
+  animation-delay: 7s;
+}
+.chat-delay7-5 {
+  animation-delay: 7.5s;
+}
+.chat-delay8 {
+  animation-delay: 8s;
+}
+.chat-delay8-5 {
+  animation-delay: 8.5s;
 }
